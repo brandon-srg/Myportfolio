@@ -1,7 +1,7 @@
 import React from 'react';
 import { Hero } from '../../layout/Hero/Hero';
 import { About } from '../../layout/About/About';
-import miphoto from '../../../assets/miphoto.jpg';
+import miphoto from '@assets/miphoto.jpg';
 import './Home.css';
 
 export const Home = () => {
