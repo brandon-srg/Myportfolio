@@ -1,0 +1,68 @@
+.card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    color: #ffffff;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para el encabezado de la card */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.card-header h3 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card-date {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Estilos para el contenido de la card */
+.card-company {
+    color: #888;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.card-description {
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para tecnologías en la card */
+.card-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Estilos específicos para la tarjeta de experiencia */
+.experience-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-card .card-description {
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 1.5rem;
+    }
+} 
