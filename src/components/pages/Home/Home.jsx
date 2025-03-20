@@ -1,11 +1,12 @@
 import React from 'react';
 import { Hero } from '../../layout/Hero/Hero';
 import { About } from '../../layout/About/About';
+import miphoto from '../../../assets/miphoto.jpg';
 import './Home.css';
 
 export const Home = () => {
     const heroData = {
-        image: '/miphoto.jpg',
+        image: miphoto,
         greeting: "¡Hola! Soy",
         name: "Brandon Steve Rubiano Gil",
         description: "Desarrollador Full Stack con especialización en frontend y análisis de datos. Transformo ideas en aplicaciones web robustas y experiencias de usuario excepcionales."
