@@ -5,7 +5,7 @@ import './Home.css';
 
 export const Home = () => {
     const heroData = {
-        image: '../../../../public/miphoto.jpg',
+        image: '/miphoto.jpg',
         greeting: "¡Hola! Soy",
         name: "Brandon Steve Rubiano Gil",
         description: "Desarrollador Full Stack con especialización en frontend y análisis de datos. Transformo ideas en aplicaciones web robustas y experiencias de usuario excepcionales."
